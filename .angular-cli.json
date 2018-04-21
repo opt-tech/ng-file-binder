@@ -23,6 +23,14 @@
   },
   "apps": [
     {
+      "name": "fb",
+      "root": "libs/fb/src",
+      "test": "../../../test.js",
+      "appRoot": "",
+      "tags": [],
+      "prefix": "fb"
+    },
+    {
       "name": "$workspaceRoot",
       "root": ".",
       "appRoot": ""
