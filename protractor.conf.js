@@ -15,6 +15,7 @@ exports.config = {
   },
   directConnect: true,
   baseUrl: 'http://localhost:4200/',
+  chromeDriver: './node_modules/protractor/node_modules/webdriver-manager/selenium/chromedriver_2.37',
   framework: 'jasmine',
   jasmineNodeOpts: {
     showColors: true,
