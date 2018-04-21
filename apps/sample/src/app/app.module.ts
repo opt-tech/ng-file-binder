@@ -6,7 +6,7 @@ import { NxModule } from '@nrwl/nx';
 import { FbModule } from '../../../../libs/fb/index';
 
 @NgModule({
-  imports: [BrowserModule, NxModule.forRoot(),FbModule],
+  imports: [BrowserModule, NxModule.forRoot(), FbModule],
   declarations: [AppComponent],
   bootstrap: [AppComponent]
 })
