@@ -1,0 +1,7 @@
+<input type="file" fbInput [(file)]="inputFile">
+<div>{{inputFile?.name}}</div>
+
+<hr>
+
+<div class="drag-area" fbDrag [(file)]="dragFile" (dragOver)="isDragging=$event" [class.is-dragging]="isDragging"></div>
+<div>{{dragFile?.name}}</div>

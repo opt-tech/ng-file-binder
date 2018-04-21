@@ -5,6 +5,7 @@ import { DragDirective } from './drag.directive';
 
 @NgModule({
   imports: [CommonModule],
-  declarations: [InputDirective, DragDirective]
+  declarations: [InputDirective, DragDirective],
+  exports: [InputDirective, DragDirective]
 })
 export class FbModule {}
