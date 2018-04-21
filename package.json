@@ -1,6 +1,6 @@
 {
-  "name": "ng-file-binder",
-  "version": "0.0.0",
+  "name": "@opt-tech/ng-file-binder",
+  "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -25,7 +25,6 @@
     "help": "./node_modules/.bin/nx help",
     "pack": "ng-packagr -p package.json"
   },
-  "private": true,
   "dependencies": {},
   "devDependencies": {
     "@angular/animations": "5.2.7",
